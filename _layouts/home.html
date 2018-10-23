@@ -7,7 +7,7 @@
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css'>
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css'>
     <link rel='stylesheet' href='https://cuboulder.github.io/styleguide/css/ucb-styles.css'>
-    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed:700'>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:400,900|Roboto+Condensed:700'>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
@@ -45,8 +45,8 @@
       {{ content }}
 
       <div class="background-black padding-vertical">
-        <div class="container text-center">
-          <script type="text/javascript" src="//cuboulder.github.io/brand-assets/js/footer.js" id="ucb-footer-embed" data-color="white"></script>
+				<div class="container">
+          {% include footer.html %}
         </div>
       </div>
     </div>
